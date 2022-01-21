@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-	cout<<"Проверка 1"<<endl;
-	//причина следствия
-	cint>>i;
+	int a =7;
+	int *b =&a;
+	cout<<"Проверяем указатели "<< b<<endl;
 	cout<<"Проверка"<<endl;
-	return0;
+	return 0;
 }
